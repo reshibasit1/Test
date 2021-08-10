@@ -25,13 +25,13 @@ printf("\nTime for execution= %f seconds\n", (float)(endtime-
 starttime)/CLOCKS_PER_SEC);
 printf("reachable vertices from source %d are :\n", source);
 for(i=0;i<n;i++)
-if(i!=source&& visited[i]==1)
+if(i!=source && visited[i]==1)
 printf("%d\n",i);
 }
 void DFS(int i)
 {
 int j;
-//printf("\n %d",i); //reachable
+printf("\n %d",i); //reachable
 visited[i]=1;
 for(j=0;j<n;j++)
 if(!visited[j]&&G[i][j]==1)
