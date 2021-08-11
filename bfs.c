@@ -37,3 +37,8 @@ bfs(a,n,s);
 endtime=clock();
 clk=(double)(endtime-starttime)/CLOCKS_PER_SEC;printf("\nThe run time is %f\n",clk);
 }
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 1 0 0
+1 0 0 1 0
